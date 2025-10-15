@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Linus Y. Wong"
-  avatar           : "profile.png"
+  avatar           : profile.png
   bio              : "ESE PhD Student @ UPenn | Graduate Research Assistant @ CyberSavvy Center"
   location         : "Philadelphia, Pennsylvania, USA"
   employer         :
