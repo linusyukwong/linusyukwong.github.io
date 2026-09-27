@@ -11,9 +11,11 @@ redirect_from:
 
 <div id="about"></div>
 
-I am a sixth-year ESE PhD student at [UPenn](https://www.ese.upenn.edu), advised by Prof. Jing Li. Before Penn, I completed my Masters at [HKUST](https://hkust.edu.hk) and my undergrad at [CUHK](https://www.cuhk.edu.hk).
+I am a sixth-year Ph.D. student in Electrical and Systems Engineering at the University of Pennsylvania, advised by Prof. Jing Li, and expect to graduate in 2027. Before Penn, I received my M.Phil. from HKUST and my B.Eng. from CUHK.
 
-My research interests are in the intersection of hardware security, high-performance networking, storage, and accelerators. I am currently working on optimized hardware for propagating and checking software-programmable metadata (e.g. Tagged Architectures and Pointer Authentication).
+My research spans computer architecture, high-performance networking, reconfigurable computing, storage systems, and hardware security. I am particularly interested in building efficient hardware and hardware–software systems for communication- and data-intensive workloads, including datacenter interconnects, FPGA-accelerated storage, and programmable architectural mechanisms.
+
+My recent work includes R2D2, a reconfigurable network for disaggregated datacenters published at ISCA'26, and FPGA-based systems for tightly integrating computation with NVMe storage (FPGA'26, TRETS'24, FPGA'23). I am also actively working on hardware mechanisms for efficiently propagating and checking software-programmable metadata, including tagged architectures and pointer authentication.
 
 <h2 id="publications">Publications</h2>
 
