@@ -36,7 +36,8 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% assign formatted_citation = post.citation | replace: 'Linus Y. Wong', '<strong>Linus Y. Wong</strong>' | replace: 'Yuk Wong', '<strong>Yuk Wong</strong>' %}
+    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ formatted_citation }}</p> {% endif %}
     </li>
  </article>
 </div>
