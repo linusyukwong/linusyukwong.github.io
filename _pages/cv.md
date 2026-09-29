@@ -14,12 +14,9 @@ Education
 * B.Eng. in Computer Engineering, Chinese University of Hong Kong, 2015
 * M.Phil. in Electronic and Computer Engineering, Hong Kong University of Science and Technology, 2021
 
-Work experience
+Experience
 ======
-* Summer 2015: Research Assistant
-  * Carnegie Mellon University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Pulkit Grover
+{% include experience.html %}
   
 Skills
 ======

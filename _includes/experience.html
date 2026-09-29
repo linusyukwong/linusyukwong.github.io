@@ -1,0 +1,7 @@
+{% for experience in site.data.experience %}
+  <article class="experience">
+    <p><strong>{{ experience.organization | escape }}</strong> — {{ experience.role | escape }}<br>
+      <em>{{ experience.period | escape }}</em></p>
+    <p>{{ experience.summary | escape }}</p>
+  </article>
+{% endfor %}

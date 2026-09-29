@@ -1,0 +1,17 @@
+- organization: "University of Pennsylvania"
+  role: "Graduate Research Assistant"
+  period: "Aug 2021 - Present"
+  location: "Philadelphia, PA"
+  summary: "I design secure and efficient RDMA networking and NVMe storage systems for accelerated and high-performance computing."
+
+- organization: "Amazon Annapurna Labs"
+  role: "Applied Scientist Intern, Neuron Science Team"
+  period: "May - Aug 2026"
+  location: "Cupertino, CA"
+  summary: "I developed Trainium-initiated RDMA communication for expert-parallel large language model training and inference on AWS."
+
+- organization: "Carnegie Mellon University"
+  role: "Research Intern"
+  period: "Jun - Aug 2018"
+  location: "Pittsburgh, PA"
+  summary: "I worked on a coded FFT algorithm with error correction and compression for robust distributed molecular dynamics simulations."
