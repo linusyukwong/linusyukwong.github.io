@@ -22,7 +22,7 @@ My recent work includes R2D2, a reconfigurable network for disaggregated datacen
 You can also find my articles on [Google Scholar]({{ site.author.googlescholar }}).
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html homepage=true %}
+  {% include publication-entry.html %}
 {% endfor %}
 
 <h2 id="teaching">Teaching</h2>

@@ -1,6 +1,8 @@
 ---
 title: "Low Bitwidth CNN Accelerator on FPGA Using Winograd and Block Floating Point Arithmetic"
 collection: publications
+publication_authors: ["Yuk Wong", "Zhenjiang Dong", "Wei Zhang"]
+venue_short: "ISVLSI"
 date: 2021-07-07
 venue: "IEEE Computer Society Annual Symposium on VLSI (ISVLSI)"
 paperurl: "https://doi.org/10.1109/ISVLSI51109.2021.00048"

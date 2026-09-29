@@ -2,6 +2,24 @@
    ARCHIVE
    ========================================================================== */
 
+.archive .publication-entry {
+  margin: 0 0 1.5em;
+  line-height: 1.5;
+
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  &__note {
+    font-size: $type-size-6;
+  }
+}
+
 .archive {
   margin-bottom: 2em;
 

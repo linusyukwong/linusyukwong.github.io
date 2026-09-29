@@ -1,0 +1,7 @@
+{% assign authors = post.publication_authors | join: ', ' | escape | replace: 'Linus Y. Wong', '<strong>Linus Y. Wong</strong>' | replace: 'Yuk Wong', '<strong>Yuk Wong</strong>' %}
+<p class="publication-entry">
+  <strong><a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title | escape }}</a></strong><br>
+  {{ authors }}<br>
+  {{ post.venue_short | escape }} {{ post.date | date: '%Y' }} [<a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer" aria-label="DOI for {{ post.title | escape }}">DOI</a>]
+  {% if post.equal_contribution %}<br><span class="publication-entry__note">* Both authors contributed equally to the paper.</span>{% endif %}
+</p>
